@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01c98521-0d6a-439e-b629-ce6f89833c98" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/src/main/java/com/tenquare/base/BaseApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/src/main/java/com/tenquare/base/controller/BaseExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/src/main/java/com/tenquare/base/controller/LabelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/src/main/java/com/tenquare/base/dao/LabelDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/src/main/java/com/tenquare/base/pojo/Label.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/src/main/java/com/tenquare/base/service/LabelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/src/test/java/com/young/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/target/classes/com/tenquare/base/BaseApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/target/classes/com/tenquare/base/controller/LabelController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/target/classes/com/tenquare/base/dao/LabelDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/target/classes/com/tenquare/base/pojo/Label.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/target/classes/com/tenquare/base/service/LabelService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tenquare_base/target/test-classes/com/young/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/src/main/java/entity/PageResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/src/main/java/entity/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/src/main/java/entity/StatusCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/src/main/java/util/IdWorker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/target/classes/entity/PageResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/target/classes/entity/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/target/classes/entity/StatusCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/target/classes/util/IdWorker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tenquare_parent/tensquare_common/tensquare_common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ignore" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/tenquare_base/target/" />
@@ -47,6 +22,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
+          <entry key="ignore" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="2" />
         </counts>
@@ -55,6 +32,7 @@
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -68,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/entity/PageResult.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -77,16 +55,25 @@
         <entry file="file://$PROJECT_DIR$/tensquare_common/tensquare_common.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tenquare_base/src/main/java/com/tenquare/base/pojo/Label.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tenquare_base/src/main/java/com/tenquare/base/pojo/Label.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+            <state relative-caret-position="95">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -101,6 +88,14 @@
       <map>
         <entry key="$PROJECT_DIR$/../int-asmp" value="PREVIEW" />
       </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.ignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -234,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571069734006" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571069846399" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -261,12 +256,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571069118541</updated>
-      <workItem from="1571069119783" duration="613000" />
+      <workItem from="1571069119783" duration="848000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="613000" />
+    <option name="totallyTimeSpent" value="848000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="6" />
@@ -326,21 +330,35 @@
     <entry file="file://$PROJECT_DIR$/tensquare_common/src/main/java/entity/PageResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensquare_common/tensquare_common.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tenquare_base/src/main/java/com/tenquare/base/pojo/Label.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
         </state>
       </provider>
     </entry>
