@@ -3,17 +3,30 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.young</groupId>
+    <groupId>com.tensquare</groupId>
     <artifactId>tensquare_parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>tensquare_common</module>
-        <module>tenquare_base</module>
+        <module>tensquare_base</module>
+        <module>tensquare_recruit</module>
+        <module>tensquare_qa</module>
+        <module>tensquare_article</module>
+        <module>tensquare_gathering</module>
+        <module>tensquare_spit</module>
+        <module>tensquare_search</module>
+        <module>tensquare_user</module>
+        <module>tensquare_sms</module>
+        <module>tensquare_eureka</module>
+        <module>tensquare_friend</module>
+        <module>tensquare_manager</module>
+        <module>tensquare_web</module>
+        <module>tensquare_config</module>
     </modules>
     <packaging>pom</packaging>
 
     <name>tensquare_parent</name>
-    <description>young</description>
+    <description>十次方项目</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -21,6 +34,18 @@
         <version>2.0.1.RELEASE</version>
         <relativePath/>
     </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,12 +62,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.16.10</version>
         </dependency>
     </dependencies>
 
@@ -83,5 +102,6 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
 
 </project>

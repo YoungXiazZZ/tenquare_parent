@@ -1,0 +1,13 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: tensquare-sms
+  rabbitmq:
+    host: 192.168.0.110
+aliyun:
+  sms:
+    accessKeyId: LTAIj2yt3XWo8r96
+    accessKeySecret: MBHtgZZ13Maloc5uteAnM2xZvPLPrU
+    sign_name: 冰箱哥哥
+    template_code: SMS_163051098

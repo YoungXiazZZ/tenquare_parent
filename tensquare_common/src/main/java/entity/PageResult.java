@@ -1,24 +1,33 @@
 package entity;
 
-
-import lombok.Data;
-
 import java.util.List;
 
 /**
- * Created by xiayang on 2019/9/18.
+ * 分页结果类 * @param <T>
  */
-@Data
 public class PageResult<T> {
-    private long total;
-
+    private Long total;
     private List<T> rows;
 
-    public PageResult() {
+    public PageResult(Long total, List<T> rows) {
+        super();
+        this.total = total;
+        this.rows = rows;
     }
 
-    public PageResult(long total, List<T> rows) {
+    public Long getTotal() {
+        return total;
+    }
+
+    public void setTotal(Long total) {
         this.total = total;
+    }
+
+    public List<T> getRows() {
+        return rows;
+    }
+
+    public void setRows(List<T> rows) {
         this.rows = rows;
     }
 }
